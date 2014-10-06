@@ -1,2 +1,2 @@
-# Ruby on Rails : Приложение Message
-Message app
+# Ruby on Rails : Приложение Messenger
+Messenger app

@@ -17,15 +17,16 @@
       </div>
     </div>
 <% else %>
-    <h1>Welcome to Messenger</h1>
-    <h2>
-      Connect with your friends — and other fascinating people.
-      Get in-the-moment updates on the things that interest you.
-      <p>And watch events unfold, in real time, from every angle.</p>
-    </h2>
-    <h3>
+    <div class="center hero-unit">
+      <h1>Welcome to Messenger</h1>
+
+      <h2>
+        Connect with your friends — and other fascinating people.
+      </h2>
+
       <%= link_to "Sign up for Messenger", signup_path,
                   class: "btn btn-large btn-primary" %>
-    </h3>
+    </div>
+
     <%= link_to image_tag("ruby.png", alt: "Rails"), 'http://rubyonrails.org/' %>
 <% end %>

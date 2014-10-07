@@ -1,31 +1,29 @@
+//@import "bootstrap";
+
 /* mixins, variables, etc. */
 
 $grayMediumLight: #eaeaea;
 $grayLighter: #eee;
 $grayLight: #999;
 $blue: #049cdb;
+$gray: #555;
+$grayDarker: #222;
 
 @mixin box_sizing {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-
 }
 
 /* universal */
 
 html {
   overflow-y: scroll;
-  }
+}
 
 body {
-  padding-top: 100px;
-  color: #333;
+  padding-top: 60px;
   background: url("image.jpg");
-  //background-repeat: no-repeat;
-  background-position: right bottom;
-  background-attachment: fixed;
-
 }
 
 section {
@@ -37,11 +35,11 @@ textarea {
 }
 
 .center {
+  background: url("image.jpg");
   text-align: center;
-}
-
-.center h1 {
-  margin-bottom: 100px;
+  h1 {
+    margin-bottom: 10px;
+  }
 }
 
 /* typography */
@@ -51,9 +49,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 3em;
   letter-spacing: -2px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -63,12 +61,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #555;
-}
-
-h3 {
-  text-align: center;
-  margin-bottom: 250px;
+  color: $grayLight;
 }
 
 p {
@@ -76,23 +69,23 @@ p {
   line-height: 1.7em;
 }
 
+
 /* header */
 
 #logo {
   float: left;
   margin-right: 10px;
-  font-size: 1.5em;
-  color: #fff;
-  //text-transform: uppercase;
+  font-size: 1.7em;
+  color: white;
+  text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
   line-height: 1;
-}
-
-#logo:hover {
-  color: #fff;
-  text-decoration: none;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
 }
 
 /* footer */
@@ -100,31 +93,25 @@ p {
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid #eaeaea;
-  color: #999;
-}
-
-footer a {
-  color: #555;
-}
-
-footer a:hover {
-  color: #222;
-}
-
-footer small {
-  float: left;
-  color: #555;
-}
-
-footer ul {
-  float: right;
-  list-style: none;
-}
-
-footer ul li {
-  float: left;
-  margin-left: 10px;
+  border-top: 1px solid $grayMediumLight;
+  color: $grayLight;
+  a {
+    color: $gray;
+    &:hover {
+      color: $grayDarker;
+    }
+  }
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 10px;
+    }
+  }
 }
 
 /* miscellaneous */
@@ -191,7 +178,6 @@ aside {
 .user_avatars {
   overflow: auto;
   margin-top: 10px;
-
   .gravatar {
     margin: 1px 1px;
   }
@@ -249,20 +235,16 @@ input {
     border-top: 1px solid #e8e8e8;
   }
 }
-
 .content {
   display: block;
 }
-
 .timestamp {
   color: $grayLight;
 }
-
 .gravatar {
   float: left;
   margin-right: 10px;
 }
-
 aside {
   textarea {
     height: 100px;

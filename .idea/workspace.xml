@@ -4,7 +4,9 @@
     <list default="true" id="7edaf4e3-e20e-4bb8-8553-e014919d80df" name="Default" comment="">
       <change type="DELETED" beforePath="C:\projects\sample_app-master\app\assets\images\image.png" afterPath="" />
       <change type="DELETED" beforePath="C:\projects\sample_app-master\app\assets\images\rails.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sample_app.iws" />
@@ -36,7 +38,7 @@
       <file leaf-file-name="home.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="81" selection-start="919" selection-end="919" vertical-scroll-proportion="-12.230769" vertical-offset="175" max-vertical-offset="612">
+            <state line="24" column="6" selection-start="610" selection-end="610" vertical-scroll-proportion="-9.807693" vertical-offset="153" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
@@ -45,7 +47,16 @@
       <file leaf-file-name="custom.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="14" selection-start="322" selection-end="322" vertical-scroll-proportion="0.73913044" vertical-offset="51" max-vertical-offset="4692">
+            <state line="30" column="1" selection-start="424" selection-end="424" vertical-scroll-proportion="0.61098397" vertical-offset="243" max-vertical-offset="4386">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="48" selection-start="604" selection-end="604" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
@@ -64,7 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/users/index.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20141003073828_add_admin_to_users.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20141003111635_create_microposts.rb" />
@@ -113,6 +123,7 @@
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
         <option value="$PROJECT_DIR$/app/views/sessions/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
       </list>
@@ -127,6 +138,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="334" />
+    <option name="y" value="5" />
     <option name="width" value="1032" />
     <option name="height" value="738" />
   </component>
@@ -753,7 +765,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="334" y="0" width="1032" height="738" extended-state="0" />
+    <frame x="334" y="5" width="1032" height="738" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.49944258" order="8" side_tool="false" content_ui="tabs" />
@@ -1064,19 +1076,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="318" selection-end="318" vertical-scroll-proportion="0.37965262" vertical-offset="0" max-vertical-offset="442" />
+        <state line="18" column="48" selection-start="604" selection-end="604" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="81" selection-start="919" selection-end="919" vertical-scroll-proportion="-12.230769" vertical-offset="175" max-vertical-offset="612">
+        <state line="24" column="6" selection-start="610" selection-end="610" vertical-scroll-proportion="-9.807693" vertical-offset="153" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="14" selection-start="322" selection-end="322" vertical-scroll-proportion="0.73913044" vertical-offset="51" max-vertical-offset="4692">
+        <state line="30" column="1" selection-start="424" selection-end="424" vertical-scroll-proportion="0.61098397" vertical-offset="243" max-vertical-offset="4386">
           <folding />
         </state>
       </provider>

@@ -9,21 +9,23 @@ $blue: #049cdb;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+
 }
 
 /* universal */
 
 html {
   overflow-y: scroll;
-}
+  }
 
 body {
   padding-top: 100px;
   color: #333;
-  background-image: url(image.jpg);
-  background-repeat: no-repeat;
+  background: url("image.jpg");
+  //background-repeat: no-repeat;
   background-position: right bottom;
   background-attachment: fixed;
+
 }
 
 section {
